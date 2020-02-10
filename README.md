@@ -1,7 +1,7 @@
 # RuneLite Gauntlet Plugin
 **Author:** Yuri-chan (Nagi#0001)
 
-**Last Updated:** July 30, 2019
+**Last Updated:** February 10, 2020
 
 **Disclaimer:** You will need to compile the classes yourself if you want to use the project.
 
@@ -9,6 +9,9 @@
 
 ## Major Changelog:
 ```
+February 10, 2019 - Version 1.3.1
+- Removed hull highlighting from boss and projectiles (DEPRECATED)
+
 July 30, 2019 - Version 1.3
 + Instance Map
 
@@ -66,12 +69,12 @@ Prayer attacks will have a unique overlay visual.
 ![alt text](https://www.kthisiscvpv.com/64nol15644637343GmeX.png)
 
 ## Unique Magic & Range Visuals: 
-Magic and Range attacks will have a unique overlay visual.
+Magic and Range attacks will have a unique overlay visual. (REMOVED - DEPRECATED)
 
 ![alt text](https://www.kthisiscvpv.com/hrphS1564463651qNz2r.png)
 
 ## Overlay the Boss (Color): 
-Overlay the boss with an color denoting it's current attack style.
+Overlay the boss with an color denoting it's current attack style. (REMOVED - DEPRECATED)
 
 ## Overlay the Boss (Icon): 
 Overlay the boss with an icon denoting it's current attack style.
