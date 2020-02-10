@@ -8,7 +8,7 @@ import net.runelite.api.Point;
 import net.runelite.api.Projectile;
 import net.runelite.api.coords.LocalPoint;
 import net.runelite.api.model.Jarvis;
-import net.runelite.api.model.Vertex;
+//import net.runelite.api.model.Vertex;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -170,7 +170,7 @@ public class GauntletUtils {
         }
     }
 
-    public static Polygon boundProjectile(Client client, Projectile p) {
+    /*public static Polygon boundProjectile(Client client, Projectile p) {
         if (p == null || p.getModel() == null)
             return null;
 
@@ -212,5 +212,5 @@ public class GauntletUtils {
         }
 
         return polygon;
-    }
+    }*/
 }

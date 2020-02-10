@@ -24,7 +24,7 @@ import net.runelite.api.Skill;
 import net.runelite.api.SoundEffectID;
 import net.runelite.api.Tile;
 import net.runelite.api.events.AnimationChanged;
-import net.runelite.api.events.ConfigChanged;
+//import net.runelite.api.events.ConfigChanged;
 import net.runelite.api.events.GameObjectChanged;
 import net.runelite.api.events.GameObjectDespawned;
 import net.runelite.api.events.GameObjectSpawned;
@@ -176,7 +176,7 @@ public class GauntletPlugin extends Plugin {
         imageAttackPrayer = ImageUtil.resizeImage(iconManager.getSkillImage(Skill.PRAYER, true), imageSize, imageSize);
     }
 
-    @Subscribe
+    /*@Subscribe
     public void onConfigChanged(ConfigChanged event) {
         if (event.getGroup() == null || event.getKey() == null || !event.getGroup().equals("Gauntlet"))
             return;
@@ -192,7 +192,7 @@ public class GauntletPlugin extends Plugin {
         } else if (event.getKey().equals("iconSize")) {
             loadImages(config.iconSize());
         }
-    }
+    }*/
 
     @Subscribe
     public void onVarbitChanged(VarbitChanged event) {

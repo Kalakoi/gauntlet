@@ -73,7 +73,7 @@ public class GauntletOverlay extends Overlay {
                 if (icon == null)
                     continue;
 
-                Polygon polygon = GauntletUtils.boundProjectile(client, projectile);
+                /*Polygon polygon = GauntletUtils.boundProjectile(client, projectile);
                 if (polygon == null) {
                     int x = (int) projectile.getX();
                     int y = (int) projectile.getY();
@@ -95,7 +95,7 @@ public class GauntletOverlay extends Overlay {
                     int x = (int) bounds.getCenterX() - (icon.getWidth() / 2);
                     int y = (int) bounds.getCenterY() - (icon.getHeight() / 2);
                     graphics.drawImage(icon, x, y, null);
-                }
+                }*/
             }
 
             for (NPC npc : this.client.getNpcs()) {
@@ -126,7 +126,7 @@ public class GauntletOverlay extends Overlay {
 
                     // Overlay the boss with a color on it's convex hull.
                     if (config.overlayBoss()) {
-                        Polygon polygon = npc.getConvexHull();
+                        /*Polygon polygon = npc.getConvexHull();
 
                         if (polygon != null) {
                             Color color;
@@ -145,7 +145,7 @@ public class GauntletOverlay extends Overlay {
                             graphics.draw(polygon);
                             graphics.setColor(new Color(color.getRed(), color.getGreen(), color.getBlue(), 50));
                             graphics.fill(polygon);
-                        }
+                        }*/
                     }
 
                     // Overlay of the boss with an icon denoting it's current attack style.
