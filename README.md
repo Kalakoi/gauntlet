@@ -9,7 +9,7 @@
 
 ## Major Changelog:
 ```
-February 10, 2019 - Version 1.3.1
+February 10, 2020 - Version 1.3.1
 - Removed hull highlighting from boss and projectiles (DEPRECATED)
 
 July 30, 2019 - Version 1.3
